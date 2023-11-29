@@ -55,13 +55,13 @@ p{
     line-height: 1.4em;
 }
 h2{
-    text-align: center;
+    text-align: left;
     background-color: #9f111b;
     color: white;
     font-weight: lighter;
     font-family:'Manrope', Arial, Helvetica, sans-serif;
     padding: 7px;
-    width: 450px;
+    width: 430px;
     margin: 5px;
     border-radius: 4px;
 }
