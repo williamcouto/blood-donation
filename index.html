@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="shortcut icon" href="blood-donation-ico.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css"/>
+  <title>Doação de sangue</title>
+</head>
+<body>
+  <header>
+    <h1>Verifique sua Compatibilidade sanguínea</h1>
+    <h3>Descubra a quem você pode doar e de quem você pode receber.</h3>
+  </header>
+    <main>
+      <section>
+      <article id="text_donation">
+        <h2>Entenda a importância de doar sangue.</h2>
+        <p>A doação de sangue é um ato nobre e de solidariedade que ajuda a salvar muitas vidas. Doando sangue, você pode ajudar nos tratamentos médicos, cirurgias e atendimentos de emergência na rede da saúde.</p>
+
+        <p>Sua contribuição é crucial para manter os estoques de sangue em níveis adequados e assegurar que, quando necessário, haja sangue disponível para quem precisa.</p>
+
+        <p>Após realizar um cadastro rápido em sua região, você irá realizar uma triagem para assegurar que sua doação seja segura tanto para você quanto para o receptor. A coleta do sangue dura apenas alguns minutos, mas os benefícios podem durar para toda a vida.</p>
+        
+        <p>Doe sangue, compartilhe vida. O poder de mudar está em suas veias.</p>
+
+        <p><strong>Abaixo, é possível verificar para qual tipo sanguíneo você pode doar e de quem você pode receber.</strong></p>
+      </article>
+        <div class="container">
+        <p>Selecione o seu tipo sanguíneo</p>
+          <select name="user_bloodType" id="user_bloodType">
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+          </select>
+        <input type="button" id="button_check" value="CHECAR" onclick="verificaTipo()">
+        <p>Compatibilidade</p>
+        <p>Pode doar para:<span class="resultado_doar"></span></p>
+        <p>Pode receber de:<span class="resultado_receber"></span></p>
+        </div>
+      </section>
+    </main>
+  <script src="script.js"></script>
+  </body>
+</html>
