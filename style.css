@@ -93,3 +93,15 @@ select{
     line-height: 16px;
     letter-spacing: 1px;
 }
+#basics_requi{
+    margin-top: 33px;
+    padding: 14px;
+}
+li{
+    padding: 8px;
+    font: 16px 'Lato', arial;
+    list-style-position: inside;
+}
+li::marker{  /*Altera a cor do marcador*/
+    color: red;
+}
