@@ -13,18 +13,38 @@ header{
     font: 20px 'Manrope', arial, sans-serif;
     text-align: center;
     padding: 18px;
+    height: 60px;
     letter-spacing: 2px;
     color: #ffff;
-    background-color: #9f111b;
+    background-color: #930013;
 }
-header > h3{
-    font-weight: lighter;
-    font-size: 17px;
+
+p{
+    padding: 5px;
+    font-size: 16px;
+    line-height: 1.3em;
 }
+
+h2{
+    background-color: #930013;
+    text-align: left;
+    color:#ffff;
+    font: bold 23px 'Manrope', Arial, sans-serif;
+    padding: 6px;
+    width: 430px;
+    margin: 6px;
+    border-radius: 3px;
+}
+
 body{
-    background-color: #FFFF;
-    font-family: 'Lato' , Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ECE2D0;
 }
+
+main{
+    margin: 10px 20px;
+}
+
 .container{
     display: flex;
     justify-content: center;
@@ -32,43 +52,32 @@ body{
     box-sizing: border-box;
     background-color: #FFFF;
     padding: 10px;
-    width: 450px;
-    height: 210px;
-    margin: auto;
-    margin-top: 10px;
-    border-radius: 10px;
-    border: solid 2px #9f111b;
+    width: 370px;
+    height: 200px;
+    margin: 20px 10px;
+    border: solid 1px #930013;
 }
 section{
     background-color: #FFFF;
-    padding: 12px;
-    width: 850px;
-    height: 560px;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 5px;
-    border-radius: 10px;
+    padding: 9px;
+    width: 660px;
+    height: 320px;
+    margin: 20px 30px;
 }
-p{
-    padding: 5px;
-    font-size: 16px;
-    line-height: 1.4em;
+
+#basics_requi{
+    background-color: #ffff;
+    margin-top: 60px;
+    padding: 9px;
+    width: 500px;
 }
-h2{
-    text-align: left;
-    background-color: #9f111b;
-    color: white;
-    font-weight: lighter;
-    font-family:'Manrope', Arial, Helvetica, sans-serif;
-    padding: 7px;
-    width: 430px;
-    margin: 5px;
-    border-radius: 4px;
-}
+
 article{
-    font:  16px 'Lato', Arial, Helvetica, sans-serif;
-    padding: 16px;
+    font:  16px  Arial, sans-serif;
+    margin: 10px 5px;
+    line-height: 1.5em;
 }
+
 select{
     width: 155px;
     height: 26px;
