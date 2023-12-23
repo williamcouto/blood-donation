@@ -8,53 +8,45 @@
   <title>Doação de sangue</title>
 </head>
 <body>
-  <header>
-    <h1>Verifique sua Compatibilidade sanguínea</h1>
-  </header>
-    <main>
+    <header>
+      <h1>Verifique sua Compatibilidade sanguínea</h1>
+    </header>
+  <main>
       <section>
-      <article id="text_donation">
-        <h2>Entenda a importância de doar sangue.</h2>
-        <p>A doação de sangue é um ato nobre e de solidariedade que ajuda a salvar muitas vidas. Doando sangue, você pode ajudar nos tratamentos médicos, cirurgias e atendimentos de emergência na rede da saúde.</p>
-
-        <p>Sua contribuição é crucial para manter os estoques de sangue em níveis adequados e assegurar que, quando necessário, haja sangue disponível para quem precisa.</p>
-
-        <p>Após realizar um cadastro rápido em sua região, você irá realizar uma triagem para assegurar que sua doação seja segura tanto para você quanto para o receptor. A coleta do sangue dura apenas alguns minutos, mas os benefícios podem durar para toda a vida.</p>
+          <h2>Entenda a importância de doar sangue.</h2>
+          <p>A doação de sangue é um ato nobre e de solidariedade que ajuda a salvar muitas vidas. Doando sangue, você pode ajudar nos tratamentos médicos, cirurgias e atendimentos de emergência na rede da saúde.</p>
+          <p>Sua contribuição é crucial para manter os estoques de sangue em níveis adequados e assegurar que, quando necessário, haja sangue disponível para quem precisa.</p>
+          <p>Após realizar um cadastro rápido em sua região, você irá realizar uma triagem para assegurar que sua doação seja segura tanto para você quanto para o receptor. A coleta do sangue dura apenas alguns minutos, mas os benefícios podem durar para toda a vida.</p>
+          <strong><p>Doe sangue, compartilhe vida. O poder de mudar está em suas veias.</p></strong>
+          
+          <div class="container">
+            <p>Selecione o seu tipo sanguíneo</p>
+              <select name="user_bloodType" id="user_bloodType">
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+              </select>
+            <input type="button" id="button_check" value="VERIFICAR" onclick="verificaTipo()">
+            <p>Pode doar para:<span class="resultado_doar"></span></p>
+            <p>Pode receber de:<span class="resultado_receber"></span></p>
+            </div>
         
-        <p>Doe sangue, compartilhe vida. O poder de mudar está em suas veias.</p>
-
-        <p><strong>Abaixo, é possível verificar para qual tipo sanguíneo você pode doar e de quem você pode receber.</strong></p>
-      </article>
-        <div class="container">
-        <p>Selecione o seu tipo sanguíneo</p>
-          <select name="user_bloodType" id="user_bloodType">
-            <option value="A+">A+</option>
-            <option value="A-">A-</option>
-            <option value="B+">B+</option>
-            <option value="B-">B-</option>
-            <option value="AB+">AB+</option>
-            <option value="AB-">AB-</option>
-            <option value="O+">O+</option>
-            <option value="O-">O-</option>
-          </select>
-        <input type="button" id="button_check" value="VERIFICAR" onclick="verificaTipo()">
-        <p>Pode doar para:<span class="resultado_doar"></span></p>
-        <p>Pode receber de:<span class="resultado_receber"></span></p>
-        </div>
-
-        <article id="basics_requi">
-        <h2>Requisitos Básicos para doar sangue</h2>
-          <ul type="square">
-          <li>Ter idade entre 16 e 69 anos. Menores de 18 anos precisam de autorização dos pais ou responsável;
-          <li>Pessoas com idade entre 60 e 69 anos só poderão doar sangue se já o tiverem feito antes dos 60 anos;
-          <li>Estar alimentado (evitar alimentos gordurosos 4 horas antes da doação);
-          <li>Ter no mínimo 50 kg;
-          <li>Apresentar documento original com foto recente emitido por órgão oficial, que permita a identificação do candidato;
-          <li>Não tenha feito tatuagem ou colocado piercing nos últimos 12 meses;
-          <li>Ter dormido pelo menos 6 horas nas últimas 24 horas;
-          </ul>
-        </article>
-      </section>
+          <h2>Requisitos Básicos para doar sangue</h2>
+            <ul type="square">
+            <li>Ter idade entre 16 e 69 anos. Menores de 18 anos precisam de autorização dos pais ou responsável;
+            <li>Pessoas com idade entre 60 e 69 anos só poderão doar sangue se já o tiverem feito antes dos 60 anos;
+            <li>Estar alimentado (evitar alimentos gordurosos 4 horas antes da doação);
+            <li>Ter no mínimo 50 kg;
+            <li>Apresentar documento original com foto recente emitido por órgão oficial, que permita a identificação do candidato;
+            <li>Não tenha feito tatuagem ou colocado piercing nos últimos 12 meses;
+            <li>Ter dormido pelo menos 6 horas nas últimas 24 horas;
+            </ul>
+      </section> 
     </main>
   <script src="script.js"></script>
   </body>
