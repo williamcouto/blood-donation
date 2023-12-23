@@ -1,8 +1,7 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 *{
     margin: 0;
@@ -10,40 +9,51 @@
 }
 
 header{
-    font: 20px 'Manrope', arial, sans-serif;
+    font: 22px 'Manrope', arial, sans-serif;
+    padding: 20px;
     text-align: center;
-    padding: 18px;
-    height: 60px;
     letter-spacing: 2px;
     color: #ffff;
     background-color: #930013;
 }
 
 p{
-    padding: 5px;
+    padding: 6px;
     font-size: 16px;
-    line-height: 1.3em;
+    line-height: 1.4em;
 }
 
 h2{
     background-color: #930013;
     text-align: left;
     color:#ffff;
-    font: bold 23px 'Manrope', Arial, sans-serif;
-    padding: 6px;
     width: 430px;
-    margin: 6px;
-    border-radius: 3px;
+    height: 30px;
+    font: bold 23px 'Manrope', Arial, sans-serif;
+    padding: 4px;
+    margin: 5px;
 }
 
+
 body{
-    font-family: Arial, Helvetica, sans-serif;
     background-color: #ECE2D0;
+    font:  16px 'Open Sans', Arial, sans-serif;
 }
 
 main{
-    margin: 10px 20px;
+    margin: 20px;
 }
+
+section{
+    display: inline-block;
+    padding: 13px;
+    margin: 10px 40px;
+    background-color: #ffff;
+    border-radius: 10px;
+    width: 910px;
+    box-shadow: -2px 3px 12px -1px rgba(0, 0, 0, 0.472);
+}
+
 
 .container{
     display: flex;
@@ -51,66 +61,42 @@ main{
     flex-direction: column;
     box-sizing: border-box;
     background-color: #FFFF;
-    padding: 10px;
-    width: 370px;
+    padding: 13px;
+    width: 330px;
     height: 200px;
-    margin: 20px 10px;
+    margin: 30px 5px;
     border: solid 1px #930013;
-}
-section{
-    background-color: #FFFF;
-    padding: 9px;
-    width: 660px;
-    height: 320px;
-    margin: 20px 30px;
+    border-radius: 3px;
 }
 
-#basics_requi{
-    background-color: #ffff;
-    margin-top: 60px;
-    padding: 9px;
-    width: 500px;
-}
 
-article{
-    font:  16px  Arial, sans-serif;
-    margin: 10px 5px;
-    line-height: 1.5em;
-}
 
 select{
-    width: 155px;
-    height: 26px;
-    padding: 4px;
+    width: 145px;
+    height: 28px;
     border-radius: 4px;
     font: 14px 'Inter', Arial, sans-serif; 
 }
 #button_check{
-    width: 115px;
-    height: 28px;
+    width: 135px;
+    height: 29px;
     font: 14px 'Inter', Arial, Helvetica, sans-serif;
-    background-color: #9f111b;
+    background-color: #930013;
     border: solid 1px rgba(0, 0, 0, 0.86);
     color: #FFFF;
     cursor: pointer;
-    margin: 11px 5px 11px 4px;
-    padding: 5px;
+    margin: 10px 5px;
+    padding: 4px;
 }
 .resultado_receber , .resultado_doar{
-    font: bold 18px 'Inter', Arial, sans-serif;
-    padding: 12px; 
-    line-height: 16px;
+    font: bold 16px 'Inter', Arial, sans-serif;
+    padding: 10px; 
     letter-spacing: 1px;
 }
-#basics_requi{
-    margin-top: 33px;
-    padding: 14px;
-}
 li{
-    padding: 8px;
-    font: 16px 'Lato', arial;
+    padding: 9px;
     list-style-position: inside;
 }
-li::marker{  /*Altera a cor do marcador*/
+li::marker{ /*Altera a cor do marcador*/
     color: red;
 }
