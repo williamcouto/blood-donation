@@ -14,7 +14,9 @@ Após inserir seu tipo sanguíneo, clique no botão "Verificar" para obter infor
 
 ## Funcionalidades
 - **Compatibilidade sanguínea**: Ao escolher seu tipo sanguíneo, o site fornece informações claras sobre compatibilidades, simplificando o processo de doação e recebimento. 
+- **FAQ**
 
+  
 Em breve, planejo adicionar mais funcionalidades ao projeto e garantir que fique atualizado!
 
 ## Contribuições
